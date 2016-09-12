@@ -3,6 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	Working directory is the directory with your source files under git control (in the root of all dirs under control .git file is present). Git is tracking the difference between your working directory and local repository, and between your local repository and (one of) remote repositories. it allows for git to track files better.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
